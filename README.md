@@ -3,6 +3,8 @@ Brighte GraphQL API for leads of services.
 1 mutation for registering a new service
 
 Example mutation request
+
+
 mutation {
   register(input: {
     name: "John Doe"
@@ -23,6 +25,8 @@ mutation {
 2 query request 
 
 Example lead request
+
+
 query {
   leads {
     id
@@ -33,6 +37,7 @@ query {
     interestedServices
   }
 }
+
 
 query {
   lead(id: 1) {

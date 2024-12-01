@@ -9,6 +9,11 @@
     "esModuleInterop": true,
     "outDir": "./dist",
     "rootDir": "./graphql-leads-api/src",
-    "strict": true
+    "strict": true,
+    "types": [
+      "node",
+      "jest"
+    ],
+    "noImplicitAny": false
   }
 } 

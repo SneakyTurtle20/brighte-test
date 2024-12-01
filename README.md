@@ -1,5 +1,11 @@
 Brighte GraphQL API for leads of services.
 
+Commands
+
+Run `npm start` to run locally
+
+Run `npm test` to run unit testing.
+
 1 mutation for registering a new service
 
 Example mutation request
